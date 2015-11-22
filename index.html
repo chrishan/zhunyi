@@ -140,12 +140,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  <ul class="about-top">
           <li><h2>About</h2></li>
           <li><p>Zhun Yi trading Pte Ltd Incoporated in 2015</p></li>
-          <li class="last"><div class="about-btn"><a href="#about">More Details</a></div></li>
+          <!--<li class="last"><div class="about-btn"><a href="#about">Details</a></div></li>-->
           <div class="clear"></div>
         </ul>
         <ul>
-          <li>We are an authorised dealer in Singapore for the full range of products. We are stockist for DJI drones such as Phantom, Inspire, as well as OSMO and Ronin-M handled gimbal. Moreover we supply all DJI spare parts.</li>
-
+          <li>We are an authorised dealer in Singapore for the full range of products. We are stockist for DJI drones such as Phantom, Inspire, as well as OSMO and Ronin-M handled gimbal. Moreover we supply all DJI spare parts. <span id="about-btn" style="color: red">Read More</span></li>
+        </ul>
+        <ul id="about-detail">
           <li>Creativity is at the heart of every dream. Every idea, every groundbreaking leap that changes our world starts with the vision of talented creators. DJI give these creators the tools they need to bring their ideas to life.</li>
 
           <li>DJI platforms empower them to capture images that were once out of reach. DJI flying and camera stabilization systems redefine camera placement and motion. Amazing photos and video, treasured personal memories, and high-end professional imagery are captured every day, in every corner of the world using DJI products.</li>
@@ -557,6 +558,11 @@ $(window).load(function() {
 
 
 				$().UItoTop({ easingType: 'easeOutQuart' });
+
+        $("#about-detail").hide();
+        $("#about-btn").click(function(){
+            $("#about-detail").toggle("slow");
+        });
 
 			});
 		</script>
