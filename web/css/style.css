@@ -13,7 +13,7 @@ body a{
 	-o-transition: 0.5s all;
 }
 .header{
-	background: url(../images/banner.jpg) no-repeat center top;
+	background: url(https://www1.djicdn.com/dps/5042da4b4ee4bdfd73703572dd64d7e3.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -245,7 +245,7 @@ span.m_2{
 }
 .slider-left{
 	float: left;
-	width:29.5%;	
+	width:29.5%;
 	margin: 10% 0 0 13%;
 	padding-bottom:10%;
 }
@@ -664,7 +664,7 @@ select.mobile{display:none;}
 h4.m_5{
 	margin-top:10%;
 }
-h4.m_5 a{ 
+h4.m_5 a{
 	color: #000;
 	font-size: 1.4em;
 	text-transform: uppercase;
@@ -672,7 +672,7 @@ h4.m_5 a{
 }
 h4.m_5 a:hover{
 	color:#6e9bca;
-} 
+}
 p.m_6{
 	color: #B9B9B9;
 	text-transform: uppercase;
@@ -785,7 +785,7 @@ span.light_color{
 li.date_desc{
 	float: left;
 	width:80.5%;
-} 
+}
 ul.list_img{
 	list-style:none;
 }
@@ -942,7 +942,7 @@ p.m_8{
 	width:50%;
 	cursor: pointer;
 	positon: relative;
-	
+
 	max-width:300px;
 	max-height:100px;
 }
@@ -967,7 +967,7 @@ p.m_8{
 .footer{
 	background:#373645;
 	padding:7% 0 0;
-}	
+}
 .footer-logo a{
 	text-decoration:none;
 }
@@ -1201,7 +1201,7 @@ span.phno{
 	margin-right: 50px;
   }
   .jcarousel {
-    width: 100%;  
+    width: 100%;
  }
  .project_desc h3 {
 	font-size: 1.5em;
@@ -1216,8 +1216,8 @@ span.phno{
    font-size: 1.8em;
  }
  ul.list_img li.list_desc {
-   width: 55.5%; 
- } 
+   width: 55.5%;
+ }
  p.m_8 {
   margin-bottom: 10px;
  }
@@ -1267,7 +1267,7 @@ i.menu-border {
  }
  .search1 {
    width: 77%;
-   padding:0; 
+   padding:0;
    margin:0
  }
  .menu {
@@ -1466,7 +1466,7 @@ ul.about-top {
 	padding: 5px 0;
 }
 .m_3 h3 {
-	font-size: 1.5em;	
+	font-size: 1.5em;
 }
 h3.m_4 {
 	margin: 10px 0;
@@ -1508,7 +1508,7 @@ ul.newsletter {
 	margin-top:0;
 }
 .m_3 h3 {
-	font-size: 1.3em;	
+	font-size: 1.3em;
 }
 .header-top {
 	margin-top: 10px;
